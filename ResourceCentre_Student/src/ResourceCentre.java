@@ -143,9 +143,9 @@ public class ResourceCentre {
 		System.out.println(output);
 	}
 
-	public static String retrieveAllChromebook(ArrayList<Chromebook> chromebookList) {
+	public static String retrieveAllChromebook(ArrayList<Chromebook> chromebookList) { //20047643 macguyver ng
 		String output = "";
-		// write your code here
+		// write your code here 
 		for (int i = 0; i < chromebookList.size(); i++) { 
 			output += String.format("%-10s %-30s %-10s %-10s %-20d\n", chromebookList.get(i).getAssetTag(),
 					chromebookList.get(i).getDescription(), 
